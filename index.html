@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <section>
+<div class="logo">Creative</div>
+<img src="img/bg.jpg" alt="" class="bg">
+<div class="content">
+  <h2> Let's Make <br> Something Creative </h2>
+<p>
+Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching </p>
+<a href="#">Get Started  </a>
+</div>
+<p class="copyrightText"> MD. Tajul Islam </p>
+ </section>
+<div class="menuToggle" onclick="toggleMenu();"></div>
+<div class="navigation">
+  <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Contact</a></li>
+  </ul>
+  <div class="socialBar">
+  <ul>
+      <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+      <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+      <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+  </ul>
+  <a href="#" class="emailBx"> <img src="img/email.png" alt=""> </a>
+  </div>
+</div>
+<script>
+   function toggleMenu(){
+     var menuToggle = document.querySelector('.menuToggle');
+     var navigation = document.querySelector('.navigation');
+
+     menuToggle.classList.toggle('active');
+     navigation.classList.toggle('active')
+   }
+
+</script>
+
+</body>
+</html>
